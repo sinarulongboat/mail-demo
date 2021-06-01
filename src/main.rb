@@ -16,7 +16,7 @@ versions = template.all_versions
 
 template_data = versions.sample
 json_data = JSON.dump(template_data)
-puts "writing JSON:"
+puts 'writing JSON:'
 pp template_data
 
 redis = Redis.new

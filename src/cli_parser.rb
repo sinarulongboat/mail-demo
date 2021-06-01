@@ -2,6 +2,7 @@ require 'optparse'
 
 class CLIParser
   attr_reader :options
+
   def initialize
     @options = {}
     OptionParser.new do |opts|
