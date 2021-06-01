@@ -12,6 +12,10 @@ class DataSample
       'http'
     end
 
+    def sponsor_name
+      'demo'
+    end
+
     def sponsor_domain
       'demo'
     end
